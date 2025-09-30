@@ -52,7 +52,7 @@ const VirtualTours: React.FC<VirtualToursProps> = ({ language }) => {
       id: 0,
       name: "Rumtek Monastery",
       location: "East Sikkim",
-      image: "https://images.pexels.com/photos/3649329/pexels-photo-3649329.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://www.karmapa.org/wp-content/uploads/Rumtek_Monastery_-_Inside_Close_View-1400px-cropped.jpg",
       duration: "12 min",
       rooms: [
         { id: 'main-hall', name: t.mainHall, image: "https://images.pexels.com/photos/4963435/pexels-photo-4963435.jpeg?auto=compress&cs=tinysrgb&w=400" },
@@ -64,7 +64,7 @@ const VirtualTours: React.FC<VirtualToursProps> = ({ language }) => {
       id: 1,
       name: "Pemayangtse Monastery",
       location: "West Sikkim",
-      image: "https://images.pexels.com/photos/4963435/pexels-photo-4963435.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://sikkimproject.org/wp-content/uploads/2021/09/DSC_0037.jpg",
       duration: "15 min",
       rooms: [
         { id: 'main-hall', name: t.mainHall, image: "https://images.pexels.com/photos/3649329/pexels-photo-3649329.jpeg?auto=compress&cs=tinysrgb&w=400" },
@@ -75,7 +75,7 @@ const VirtualTours: React.FC<VirtualToursProps> = ({ language }) => {
       id: 2,
       name: "Tashiding Monastery",
       location: "West Sikkim",
-      image: "https://images.pexels.com/photos/17810975/pexels-photo-17810975.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://s7ap1.scene7.com/is/image/incredibleindia/tashiding-monastery-pelling-sikkim-2-attr-hero?qlt=82&ts=1726656030266",
       duration: "10 min",
       rooms: [
         { id: 'main-hall', name: t.mainHall, image: "https://images.pexels.com/photos/12879678/pexels-photo-12879678.jpeg?auto=compress&cs=tinysrgb&w=400" },

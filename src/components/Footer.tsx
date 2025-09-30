@@ -19,7 +19,7 @@ const Footer: React.FC<FooterProps> = ({ language }) => {
       community: "Community",
       contact: "Contact",
       phone: "+91-3592-123456",
-      email: "info@monastery360.com",
+      email: "info@sikkim360.com",
       address: "Gangtok, Sikkim, India",
       support: "Support",
       help: "Help Center",
@@ -30,7 +30,6 @@ const Footer: React.FC<FooterProps> = ({ language }) => {
       newsletter: "Subscribe to Newsletter",
       emailPlaceholder: "Enter your email",
       subscribe: "Subscribe",
-      copyright: "© 2024 Monastery360. All rights reserved.",
       credits: "Built with respect for Sikkim's sacred heritage."
     },
     nepali: {
@@ -45,7 +44,7 @@ const Footer: React.FC<FooterProps> = ({ language }) => {
       community: "समुदाय",
       contact: "सम्पर्क",
       phone: "+91-3592-123456",
-      email: "info@monastery360.com",
+      email: "info@sikkim360.com",
       address: "गंगटोक, सिक्किम, भारत",
       support: "सहयोग",
       help: "सहायता केन्द्र",
@@ -55,9 +54,7 @@ const Footer: React.FC<FooterProps> = ({ language }) => {
       followUs: "हामीलाई फलो गर्नुहोस्",
       newsletter: "न्यूजलेटर सब्स्क्राइब गर्नुहोस्",
       emailPlaceholder: "आफ्नो इमेल प्रविष्ट गर्नुहोस्",
-      subscribe: "सब्स्क्राइब गर्नुहोस्",
-      copyright: "© 2024 Monastery360. सबै अधिकार सुरक्षित।",
-      credits: "सिक्किमको पवित्र सम्पदाको सम्मानमा निर्मित।"
+      subscribe: "सब्स्क्राइब गर्नुहोस्",      credits: "सिक्किमको पवित्र सम्पदाको सम्मानमा निर्मित।"
     }
   };
 
@@ -75,7 +72,7 @@ const Footer: React.FC<FooterProps> = ({ language }) => {
                 <Mountain className="h-6 w-6 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-bold">Monastery360</h3>
+                <h3 className="text-xl font-bold">Sikkim360</h3>
                 <p className="text-xs text-monastery-gold">Digital Heritage Platform</p>
               </div>
             </div>
@@ -199,7 +196,6 @@ const Footer: React.FC<FooterProps> = ({ language }) => {
         {/* Bottom Bar */}
         <div className="border-t border-white border-opacity-20 py-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-300 mb-4 md:mb-0">
-            {t.copyright}
           </p>
           <p className="text-sm text-monastery-gold font-medium">
             {t.credits}

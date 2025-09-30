@@ -108,7 +108,7 @@ const Homepage: React.FC<HomepageProps> = ({ onNavigate, language, onBooking }) 
     {
       name: "Rumtek Monastery",
       location: "East Sikkim",
-      image: "https://images.pexels.com/photos/3649329/pexels-photo-3649329.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://www.karmapa.org/wp-content/uploads/Rumtek_Monastery_-_Inside_Close_View-1400px-cropped.jpg",
       description: "The largest monastery in Sikkim, seat of the Karmapa",
       rating: 4.9,
       type: "Kagyu Tradition"
@@ -116,7 +116,7 @@ const Homepage: React.FC<HomepageProps> = ({ onNavigate, language, onBooking }) 
     {
       name: "Pemayangtse Monastery",
       location: "West Sikkim",
-      image: "https://images.pexels.com/photos/4963435/pexels-photo-4963435.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://sikkimproject.org/wp-content/uploads/2021/09/DSC_0037.jpg",
       description: "One of the oldest monasteries in Sikkim",
       rating: 4.8,
       type: "Nyingma Tradition"
@@ -124,7 +124,7 @@ const Homepage: React.FC<HomepageProps> = ({ onNavigate, language, onBooking }) 
     {
       name: "Tashiding Monastery",
       location: "West Sikkim",
-      image: "https://images.pexels.com/photos/17810975/pexels-photo-17810975.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://s7ap1.scene7.com/is/image/incredibleindia/tashiding-monastery-pelling-sikkim-2-attr-hero?qlt=82&ts=1726656030266",
       description: "Sacred site on a hilltop with panoramic views",
       rating: 4.7,
       type: "Nyingma Tradition"

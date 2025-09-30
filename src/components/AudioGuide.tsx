@@ -52,46 +52,46 @@ const AudioGuide: React.FC<AudioGuideProps> = ({ language }) => {
   const audioTracks = [
     {
       id: 1,
-      title: "Welcome to Rumtek Monastery",
+      title: "Pemayangtse Monastery",
       monastery: "Rumtek Monastery",
       duration: "5:30",
       narrator: "Lama Tenzin",
       description: "Introduction to the largest monastery in Sikkim and seat of the Karmapa",
       location: "Main Entrance",
-      image: "https://images.pexels.com/photos/3649329/pexels-photo-3649329.jpeg?auto=compress&cs=tinysrgb&w=300",
+      image : "https://images.openai.com/thumbnails/url/P4ysfXicu1mSUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw5KCUoKT3cOrgz1989xdk7J9PcODSnxLisJLQwNcKzU9SrNDsjOLMg19U2PtMhwNIlyNqsIdYl09k10TFcrBgAuDSoQ",
       isDownloaded: true
     },
     {
       id: 2,
-      title: "The Golden Stupa",
+      title: "Tashiding Monastery",
       monastery: "Rumtek Monastery",
       duration: "8:15",
       narrator: "Dr. Pemba Sherpa",
       description: "History and significance of the golden stupa and its relics",
       location: "Main Hall",
-      image: "https://images.pexels.com/photos/4963435/pexels-photo-4963435.jpeg?auto=compress&cs=tinysrgb&w=300",
+      image  : "https://live.staticflickr.com/5829/20573151890_694fa9799e_b.jpg",
       isDownloaded: true
     },
     {
       id: 3,
       title: "Prayer Wheels and Mantras",
-      monastery: "Rumtek Monastery",
+      monastery: "Lingdum (Ranka) Monastery",
       duration: "6:45",
       narrator: "Ani Dolma",
       description: "Understanding the spiritual significance of prayer wheels",
       location: "Courtyard",
-      image: "https://images.pexels.com/photos/17810975/pexels-photo-17810975.jpeg?auto=compress&cs=tinysrgb&w=300",
+      image : "https://cdn.britannica.com/76/137776-050-6CB215D1/Prayer-wheels-Swayambhunath-Temple-Nepal-Kathmandu.jpg",
       isDownloaded: false
     },
     {
       id: 4,
       title: "Pemayangtse Origins",
-      monastery: "Pemayangtse Monastery",
+      monastery: "Ralong Monastery",
       duration: "12:20",
       narrator: "Lama Norbu",
       description: "The founding story and early history of Pemayangtse",
       location: "Assembly Hall",
-      image: "https://images.pexels.com/photos/12879678/pexels-photo-12879678.jpeg?auto=compress&cs=tinysrgb&w=300",
+      image : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/8f/64/9f/ralong-monastery-view.jpg?h=-1&s=1&w=900",
       isDownloaded: false
     },
     {
@@ -102,7 +102,7 @@ const AudioGuide: React.FC<AudioGuideProps> = ({ language }) => {
       narrator: "Art Historian Maya Gurung",
       description: "Detailed exploration of ancient murals and their symbolism",
       location: "Art Gallery",
-      image: "https://images.pexels.com/photos/3649329/pexels-photo-3649329.jpeg?auto=compress&cs=tinysrgb&w=300",
+      image : "",
       isDownloaded: true
     }
   ];

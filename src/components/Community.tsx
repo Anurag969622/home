@@ -71,7 +71,7 @@ const Community: React.FC<CommunityProps> = ({ language }) => {
       likes: 24,
       comments: 8,
       shares: 5,
-      image: 'https://images.pexels.com/photos/3649329/pexels-photo-3649329.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: 'https://captureatrip-cms-storage.s3.ap-south-1.amazonaws.com/Cultural_Significance_of_Rumtek_Monastery_8a4f344c9e.webp'
     },
     {
       id: 2,
@@ -85,7 +85,7 @@ const Community: React.FC<CommunityProps> = ({ language }) => {
       likes: 42,
       comments: 12,
       shares: 18,
-      image: 'https://images.pexels.com/photos/4963435/pexels-photo-4963435.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: 'https://1001things.org/wp-content/uploads/2016/07/Pemayangtse-Monastery-1200x675.jpg'
     },
     {
       id: 3,
@@ -93,7 +93,7 @@ const Community: React.FC<CommunityProps> = ({ language }) => {
       title: 'Grandfather\'s Stories of Tashiding',
       content: 'My grandfather shared stories of how Tashiding Monastery was built and the miracles witnessed by early devotees. These oral histories are precious.',
       author: 'Karma Lepcha',
-      authorImage: 'https://images.pexels.com/photos/3760854/pexels-photo-3760854.jpeg?auto=compress&cs=tinysrgb&w=100',
+      authorImage: 'https://sikkimtourism.org/wp-content/uploads/2024/01/tashiding-monastery-sikkim.jpg',
       monastery: 'Tashiding Monastery',
       date: '2 weeks ago',
       likes: 31,

@@ -1,5 +1,6 @@
 import React from 'react';
-import { Menu, Globe, Mountain } from 'lucide-react';
+import { Menu, Globe } from 'lucide-react';
+import myImage from '/src/sikkim.png';
 
 interface HeaderProps {
   currentPage: string;
@@ -39,15 +40,16 @@ const Header: React.FC<HeaderProps> = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div 
+          <div
             className="flex items-center cursor-pointer group"
             onClick={() => onNavigate('home')}
           >
-            <div className="bg-monastery-primary p-2 rounded-lg mr-3 group-hover:bg-monastery-secondary transition-colors">
-              <Mountain className="h-6 w-6 text-white" />
+            <div className="w-20 h-20" >
+              <img src={myImage} alt="Description of image" className="w-full h-full object-cover"
+              />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-monastery-primary">Monastery360</h1>
+              <h1 className="text-xl font-bold text-monastery-primary">Sikkim360</h1>
               <p className="text-xs text-gray-600">Digital Heritage Platform</p>
             </div>
           </div>
